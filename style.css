@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8d3e8, #b0f2b2); /* Light pink to light green gradient */
+    color: #3f3d3f; /* Darker text color */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.transparenttextures.com/patterns/polkadots.png'); /* Subtle background pattern */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #d6006c; /* Dark pink for the title */
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #d6006c; /* Dark pink border */
+    border-radius: 10px;
+    background-color: #fefefe; /* White background for each project */
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slightly increase size on hover */
+}
+
+h2 {
+    color: #007a2e; /* Dark green for project titles */
+}
+
+a {
+    text-decoration: none;
+    color: #d6006c; /* Dark pink link color */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
